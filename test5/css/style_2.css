@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 30px/1.5 Arial, "宋体", sans-serif;
+    background: #fff;
+}
+h1 {
+    font-size: .75em;
+}
+
+h2 {
+    font-size: .6em;
+}
+p {
+    font-size: .5em;
+}
+
+span {
+    font-weight: 800;
+}
+
+.info-wrap p,
+.contact-wrap p {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.skill-wrap span,
+.edu-wrap span,
+.experience-wrap span {
+    display: block;
+}
+
+.resume {
+    display: flex;
+    width: 800px;
+}
+
+.resume-title {
+    padding: .6em;
+    text-align: center;
+    color: #fff;
+    background-color: #311280;
+
+    flex-basis: 20%;
+}
+
+.resume-body {
+    padding: .5em;
+}
